@@ -57,5 +57,5 @@ class Factory {
 
 }
 
-$mellat = Factory::make("mellat");
+$mellat = Factory::make("parsian");
 print_r( $mellat->sendRequest() );
